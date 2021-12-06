@@ -2,13 +2,13 @@ package com.solid.solidprensipleri.interfacesegregation;
 
 public interface ISuperHero {
 
-        string Costume();
-        string Power();
+        String Costume();
+        String Power();
 
     public interface IBatMobile{
         default void UseBatMobile() {
         }
     }
     public interface IFly{
-        string FlyToSomeWhere();}
+        String FlyToSomeWhere();}
     }
